@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("reset.css");
+
+a{ text-decoration:none; outline:none;}
+map area { outline: none;}
+img{ vertical-align:top;}
+li{ list-style:none;}
+
+
+*{margin: 0;padding: 0;}
+
+.WRAPPER{width: 100%;height: auto;background-color: #FFFFFF;}
+
+
+
+.PACKAGE{width: 100%;height: auto;background-image: url('../images/#.jpg');background-repeat: repeat;background-attachment: fixed;background-color: #FFFFFF;}
+.LINGSHI_BOX{width: 640px;height: auto;margin: 0 auto;overflow: hidden;background-color: #FFFFFF;}
+.LINGSHI_BOX h4{width: 640px;height: 75px;font: bold 38px/75px "微軟正黑體";color: #f23331;text-align: center;}
+.LINGSHI_BOX h4 img{width: 85px;height: 75px;}
+.LINGSHI_BOX ul{width: 600px;height: auto;margin: 0 auto;}
+.LINGSHI_BOX li{width: 290px;height: 385px;float: left;margin: 0px 5px 20px 5px;}
+.LINGSHI_BOX li h6{width:288px;height: 288px;text-align: center;border: 1px solid #ffffff;margin-bottom: 15px;}
+.LINGSHI_BOX li h6 img{width:100%;height:auto;}
+.LINGSHI_BOX li p{float: left; overflow: hidden;white-space: nowrap;}
+.LINGSHI_BOX li p.L-MING{ width: 95%;height: 50px;padding: 0px 2.5px; text-align: center;font:bold 21px/25px "微軟正黑體"; color: #434343;white-space: pre-wrap;margin-bottom: 10px;}
+.LINGSHI_BOX li p.L-JIAQIANY{width: 150px;height: 30px;background-color: #b28850;line-height: 30px;background-image: url('../images/lsa-bg.png');background-repeat: no-repeat;background-position: right top;}
+.LINGSHI_BOX li p.L-JIAQIANY span.LSA{padding-left: 5px;padding-right: 3px; font: 14px/30px "微軟正黑體";color: #FFFFFF;}
+.LINGSHI_BOX li p.L-JIAQIANY span.LSB{font:bold 26px/30px "Century Gothic";color: #FFFFFF;}
+.LINGSHI_BOX li p.L-JIAQIANY span.LSB:before{content:"$";font-size: 13px;}
+.LINGSHI_BOX li p.L-JIAQIANJ{width: 140px;height: 30px;background-color: #b28850;line-height: 30px;}
+.LINGSHI_BOX li p.L-JIAQIANJ span.LSC{font: 14px/30px "微軟正黑體";color: #FFF;padding-right: 2px;}
+.LINGSHI_BOX li p.L-JIAQIANJ span.LSD{font:bold 26px/30px "Century Gothic";color: #FFF;}
+.LINGSHI_BOX li p.L-JIAQIANJ span.LSD:before{content:"$";font-size: 13px;}
+.LINGSHI_BOX li p.L-JIAQIANJ span.LSDD{font:bold 20px/30px "微軟正黑體";color: #FFF;letter-spacing: -1px;}
+
+@media screen and (max-width:768px){
+	img{width:100%;height:auto;}
+	.PACKAGE{width: 100%;height: auto;}
+	.LINGSHI_BOX{width: 100%;height: auto;margin: 0 auto;overflow: hidden;}
+	.LINGSHI_BOX h4{width: 100%;height: auto;font: bold 2em/70px "微軟正黑體";color: #f23331;text-align: center;white-space: nowrap;}
+	.LINGSHI_BOX h4 img{width: 60px;height: auto;vertical-align: middle;}
+	.LINGSHI_BOX ul{width: 98%;height: auto;margin: 0 auto;}
+	.LINGSHI_BOX li{width: 48%;height: auto;float: left;margin:0% 1% 4% 1%;}
+	.LINGSHI_BOX li h6{width:100%;height: 0;text-align: center;border: solid 1px #501213;margin-bottom: 5%;padding-bottom: 100%;}
+	.LINGSHI_BOX li h6 img{width:100%;height:auto;}
+	.LINGSHI_BOX li p{float: left; overflow: hidden;text-align: center;white-space: nowrap;}
+	.LINGSHI_BOX li p.L-MING{ width: 95%;height: 40px;padding: 0px 2.5px; text-align: center;font:bold 1em/20px "微軟正黑體"; color: #000;white-space: pre-wrap;margin-bottom:2.5%;}
+	.LINGSHI_BOX li p.L-JIAQIANY{width:100%;height: 35px;background-color: #eb1c4b;line-height: 35px;background-image:none;}
+	.LINGSHI_BOX li p.L-JIAQIANY span.LSA{padding-left: 0px;font: 0.85em/35px "微軟正黑體";color: #fff;}
+	.LINGSHI_BOX li p.L-JIAQIANY span.LSB{font:bold 1.8em/35px "Century Gothic";color: #fff;}
+	.LINGSHI_BOX li p.L-JIAQIANY span.LSB:before{content:"$";font-size: 0.5em;}
+	.LINGSHI_BOX li p.L-JIAQIANJ{width: 100%;height: 35px;background-color: #b28850;line-height: 35px;}
+	.LINGSHI_BOX li p.L-JIAQIANJ span.LSC{font: 0.8em/35px "微軟正黑體";color: #FFF;}
+	.LINGSHI_BOX li p.L-JIAQIANJ span.LSD{font:bold 1.8em/35px "Century Gothic";color: #FFF;}
+	.LINGSHI_BOX li p.L-JIAQIANJ span.LSD:before{content:"$";font-size: 0.5em;}
+	.LINGSHI_BOX li p.L-JIAQIANJ span.LSDD{font:bold 1.3em/35px "微軟正黑體";color: #FFF;letter-spacing: -0.04em;}
+
+
+	
+	
+}
